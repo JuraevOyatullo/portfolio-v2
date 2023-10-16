@@ -1,0 +1,1505 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  background: black;
+  z-index: 1001;
+}
+
+img {
+  position: fixed;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.img > .h1 {
+  display: flex;
+  color: #fff;
+  font-family: 'MuseoModerno', cursive;
+  margin: 30px 30% 0 11%;
+  font-size: 19px;
+}
+
+span {
+  color: rgb(223, 7, 7);
+}
+
+ul {
+  display: flex;
+  margin: -100px 0 0px 450px;
+}
+
+ul li {
+  display: flex;
+  margin: 50px 5% 0 0;
+}
+
+li a {
+  font-size: 25px;
+  color: #fff;
+  font-family: sans-serif;
+  transition: 0.5s ease-in-out;
+}
+
+li a:hover {
+  color: rgb(223, 7, 7);
+  transform: translateY(0);
+}
+
+.icons {
+  display: flex;
+  margin: -30px 0 0 80%;
+}
+
+.icons > li {
+  margin-inline: 10px;
+}
+
+.icons > li a {
+  font-size: 30px;
+}
+
+.bxl-telegram {
+  color: rgb(0, 122, 192);
+  text-shadow: 0 0 15px rgb(0, 122, 192);
+}
+.bxl-instagram {
+  color: rgb(223, 0, 122);
+  text-shadow: 0 0 15px rgb(223, 0, 122), 0 0 15px rgb(255, 0, 149);
+}
+
+.bxl-gmail {
+  color: rgb(204, 0, 0);
+  text-shadow: 0 0 15px rgb(204, 0, 0);
+}
+
+.bx-chat {
+  color: rgb(204, 204, 0);
+  text-shadow: 0 0 15px rgb(204, 204, 0);
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.534), rgb(0, 0, 0)),
+    url('photos/city-at-night-cyberpunk-2077-thumb.jpg');
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+main > .intro {
+  display: flex;
+  height: 400px;
+  width: 80%;
+  padding-top: 50px;
+  margin: 200px 0px 0 150px;
+  flex-direction: column;
+}
+
+.profil-img {
+  position: absolute;
+  height: 300px;
+  width: 30%;
+  top: 200px;
+  right: 200px;
+  border-radius: 20% 80% 68% 32% / 62% 79% 21% 38%;
+  background-image: url(photos/222-2225088_cyberpunk-2077-quadra-v-tech.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 5px rgb(255, 0, 0), 0 0 15px red;
+}
+
+.profil-photo {
+  position: absolute;
+  height: 300px;
+  top: 170px;
+  width: 50%;
+  right: 70px;
+  background: url(photos/222-2225088_cyberpunk-2077-quadra-v-tech.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+}
+
+.h5 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  text-shadow: 0 0 5px rgb(214, 0, 0), 0 0 15px rgb(255, 0, 0);
+  font-family: 'MuseoModerno', cursive;
+  padding: 0px 0 0 20px;
+}
+
+.intro > .h1 {
+  font-family: 'MuseoModerno', cursive;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgb(179, 179, 179), 0 0 15px rgb(119, 119, 119);
+  font-size: 65px;
+  padding: 0px 0 0 20px;
+}
+
+.letter form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+  padding-left: 20px;
+}
+
+.letter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid rgb(204, 0, 0);
+  outline: none;
+  background-color: rgb(119, 119, 119);
+  border-radius: 30px;
+}
+
+.letter form input:last-child {
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #c70505;
+  box-shadow: 0 0 5px #bdbdbd, 0 0 15px #8d8d8d;
+  top: 6px;
+  right: 6px;
+}
+
+.letter form input::placeholder {
+  color: black;
+}
+
+.about {
+  display: flex;
+  margin-top: 60px;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.952), rgba(0, 0, 0, 0.699)),
+    url(photos/Cybercar2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  margin: 50px 0 0 5%;
+  height: 550px;
+  width: 90%;
+  max-width: 100%;
+}
+
+.header > h1 {
+  letter-spacing: 2px;
+  font-size: 45px;
+  color: #ff0000;
+  margin-left: 40%;
+  font-family: 'MuseoModerno', cursive;
+  text-shadow: 0 0 5px rgb(214, 0, 0), 0 0 15px rgb(204, 0, 0);
+}
+
+.light {
+  position: absolute;
+  top: 975px;
+  left: 869px;
+  transform: rotateZ(-7deg);
+  border: 4px solid rgb(150, 0, 0);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 25%;
+  height: 0;
+  animation: animate 5s linear infinite;
+}
+.light:nth-child(2) {
+  position: absolute;
+  top: 985px;
+  left: 866px;
+  transform: rotateZ(-7deg);
+  border: 4px solid rgb(150, 0, 0);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 25%;
+  height: 0;
+  animation: animate 5s linear infinite;
+}
+.light:nth-child(3) {
+  position: absolute;
+  top: 999px;
+  left: 716px;
+  transform: rotateZ(-3deg);
+  border: 4px solid rgb(150, 0, 0);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 12%;
+  height: 0;
+  animation: animate 5s linear infinite;
+  z-index: 1;
+}
+.light:nth-child(4) {
+  position: absolute;
+  top: 1010px;
+  left: 715px;
+  transform: rotateZ(-3deg);
+  border: 4px solid rgb(150, 0, 0);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 12%;
+  height: 0;
+  animation: animate 5s linear infinite;
+}
+.light:nth-child(5) {
+  position: absolute;
+  top: 1027px;
+  left: 710px;
+  transform: rotateZ(-3deg);
+  border: 4px solid rgb(90, 80, 36);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 12%;
+  height: 0;
+  animation: animate 5s linear infinite;
+}
+.light:nth-child(6) {
+  position: absolute;
+  top: 1020px;
+  left: 713px;
+  transform: rotateZ(-3deg);
+  border: 3px solid rgb(143, 52, 0);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 12%;
+  height: 0;
+  animation: animate 5s linear infinite;
+}
+.light:nth-child(7) {
+  position: absolute;
+  top: 983px;
+  left: 1170px;
+  transform: rotateZ(-6deg);
+  border: 3px solid rgb(90, 80, 36);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 2%;
+  height: 0;
+  animation: animate 5s linear infinite;
+}
+.light:nth-child(8) {
+  position: absolute;
+  top: 976px;
+  left: 1160px;
+  transform: rotateZ(-6deg);
+  border: 3px solid rgb(143, 52, 0);
+  box-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 0);
+  border-radius: 4px;
+  width: 3%;
+  height: 0;
+  animation: animate 5s linear infinite;
+}
+
+.light-border {
+  position: absolute;
+  height: 30vh;
+  width: 5%;
+  background-color: rgb(172, 12, 12);
+  left: 0;
+  top: 1120px;
+  clip-path: polygon(100% 64%, 100% 100%, 0 100%, 0 0);
+}
+.light-border2 {
+  position: absolute;
+  height: 30vh;
+  width: 5%;
+  background-color: rgb(172, 12, 12);
+  right: 0;
+  top: 1120px;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 61%);
+}
+
+/*
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50%,
+  1%,
+  60%,
+  65.1%,
+  88%,
+  90.1%,
+  92% {
+    color: #5c5c5c;
+    box-shadow: none;
+  }
+
+  10.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #ff0000;
+    box-shadow: 0 0 10px rgb(160, 0, 0), 0 0 20px rgb(172, 0, 0),
+      0 0 40px rgb(192, 0, 0), 0 0 80px rgb(255, 14, 14),
+      0 0 160px rgb(228, 0, 0);
+  }
+}
+
+.shadow-light {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  top: 1156px;
+  left: 845px;
+  background-color: rgba(255, 196, 0, 0.027);
+  transform: rotateZ(-7deg);
+  border-radius: 80px;
+  animation: anima 5s linear infinite;
+}
+
+@keyframes anima {
+  0%,
+  18%,
+  20%,
+  50%,
+  1%,
+  60%,
+  65.1%,
+  88%,
+  90.1%,
+  92% {
+    background-color: #ff7b0004;
+    text-shadow: none;
+  }
+
+  10.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    background-color: #ff000007;
+    text-shadow: 0 0 10px rgba(160, 0, 0, 0.801), 0 0 20px rgb(172, 0, 0),
+      0 0 40px rgb(255, 166, 0), 0 0 80px rgb(255, 14, 14),
+      0 0 160px rgba(228, 0, 0, 0.829);
+  }
+}*/
+
+.indicator {
+  position: absolute;
+  height: 0;
+  width: 60%;
+  top: 900px;
+  left: 250px;
+  border: 5px solid white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dots {
+  margin-top: -10px;
+  height: 0;
+  width: 0%;
+  border: 10px solid rgb(226, 85, 2);
+  border-radius: 50%;
+}
+.dots:first-child {
+  margin-left: -10px;
+  height: 0;
+  width: 0%;
+  border: 10px solid rgb(226, 85, 2);
+  border-radius: 50%;
+}
+.dots:last-child {
+  margin-right: -10px;
+  height: 0;
+  width: 0%;
+  border: 10px solid rgb(226, 85, 2);
+  border-radius: 50%;
+}
+.year {
+  position: absolute;
+  height: 0;
+  width: 60%;
+  top: 835px;
+  left: 250px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.years {
+  display: flex;
+  font-size: 40px;
+  font-family: 'MuseoModerno', cursive;
+  color: rgb(226, 85, 2);
+}
+.years:first-child {
+  display: flex;
+  margin-left: -40px;
+  font-size: 40px;
+  font-family: 'MuseoModerno', cursive;
+  color: rgb(226, 85, 2);
+}
+.years:last-child {
+  display: flex;
+  margin-right: -40px;
+  font-size: 40px;
+  font-family: 'MuseoModerno', cursive;
+  color: rgb(226, 85, 2);
+}
+
+.info {
+  position: absolute;
+  height: 0;
+  width: 80%;
+  top: 945px;
+  left: 150px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(218, 215, 214);
+  z-index: 1000;
+}
+
+.projects {
+  display: flex;
+  height: 200vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.863)),
+    url('photos/cyberpunk_city_vertical_wallpaper_by_coolarts223_dfwmug8-fullview.jpg');
+  background-position: calc(80px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-container {
+  width: 90%;
+  margin: 0 5% 0 5%;
+  height: 200vh;
+}
+
+.h-text {
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+.h-text > h1 {
+  padding: 0 0 0 45%;
+  color: #bdbdbd;
+  text-shadow: 0 0 5px red, 0 0 15px rgb(255, 0, 221);
+  font-size: 40px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  width: 70%;
+  clip-path: polygon(
+    50% 0%,
+    80% 0,
+    100% 0,
+    100% 60%,
+    80% 100%,
+    50% 100%,
+    20% 100%,
+    0 100%,
+    0 41%,
+    20% 0
+  );
+  background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.863)),
+    url('photos/cyberpunkedgerunners_letyoudownmusicvideoscreenshot.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img {
+  height: 400px;
+  display: flex;
+  position: absolute;
+  background: url('photos/sasha_render_by_jinhehe_dfi0fbc-fullview.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  top: 1312px;
+  left: 80px;
+  z-index: 1000;
+}
+
+.card-text {
+  display: flex;
+  position: absolute;
+  height: 50px;
+  width: 40%;
+  left: 650px;
+}
+.card-text > h4 {
+  font-size: 25px;
+  color: #ff006a;
+  font-family: 'MuseoModerno', cursive;
+  padding: 5px 0 0 100px;
+}
+
+.card-p {
+  display: flex;
+  margin: 70px 0 0 270px;
+  width: 50%;
+}
+
+.card-p > p {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'MuseoModerno', cursive;
+  padding-inline: 50px;
+}
+
+.card2 {
+  margin: 100px 0px 0 365px;
+  display: flex;
+  height: 300px;
+  width: 70%;
+  clip-path: polygon(
+    50% 0%,
+    80% 0,
+    80% 0,
+    100% 47%,
+    100% 100%,
+    50% 100%,
+    20% 100%,
+    20% 100%,
+    0 54%,
+    0 0
+  );
+  background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.767)),
+    url('photos/81a4e680815973.5cec6bcf6aa1a.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img2 {
+  height: 400px;
+  position: absolute;
+  z-index: 1000;
+  background: url('photos/meta_char.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  right: 60px;
+  top: 1712px;
+}
+
+.card-text2 {
+  display: flex;
+  position: absolute;
+  height: 50px;
+  width: 40%;
+  left: 400px;
+}
+.card-text2 > h4 {
+  font-size: 25px;
+  color: #0066ff;
+  text-shadow: 0 0 5px #00c8ff;
+  font-family: 'MuseoModerno', cursive;
+  padding: 5px 0 0 100px;
+}
+
+.card-p2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 70px 0 0 100px;
+  width: 50%;
+}
+
+.card-p2 > p {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'MuseoModerno', cursive;
+  padding-inline: 50px;
+}
+
+.card3 {
+  margin-top: 100px;
+  display: flex;
+  height: 300px;
+  width: 70%;
+  clip-path: polygon(
+    50% 0%,
+    80% 0,
+    100% 0,
+    100% 60%,
+    80% 100%,
+    50% 100%,
+    20% 100%,
+    0 100%,
+    0 41%,
+    20% 0
+  );
+  background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.863)),
+    url('photos/bck-makima.jpg');
+  background-position: calc(80px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img3 {
+  height: 480px;
+  display: flex;
+  position: absolute;
+  background: url('photos/Makima-PNG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  top: 2032px;
+  left: 67px;
+  z-index: 1000;
+}
+
+.card-text3 {
+  display: flex;
+  position: absolute;
+  height: 50px;
+  width: 40%;
+  left: 650px;
+}
+.card-text3 > h4 {
+  font-size: 25px;
+  color: #ffbebe;
+  font-family: 'MuseoModerno', cursive;
+  padding: 5px 0 0 100px;
+}
+
+.card-p3 {
+  display: flex;
+  margin: 70px 0 0 350px;
+  width: 50%;
+}
+
+.card-p3 > p {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'MuseoModerno', cursive;
+  padding-inline: 50px;
+}
+
+.snake10 {
+  position: absolute;
+  display: flex;
+  height: 0;
+  width: 20%;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 1430px;
+  right: 40px;
+}
+
+.snake {
+  position: absolute;
+  display: flex;
+  height: 26%;
+  width: 0%;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 1430px;
+  right: 300px;
+}
+
+.snake-in {
+  position: absolute;
+  height: 0px;
+  width: 0;
+  border: 10px solid #ff006a;
+  box-shadow: 0 0 5px #c70505, 0 0 15px #ff006a;
+  border-radius: 50%;
+  right: -10px;
+  top: -10px;
+  z-index: 100;
+}
+
+.snake-in > a {
+  position: absolute;
+  font-size: 65px;
+  top: -35px;
+  right: 5px;
+  color: #ff006a;
+  text-shadow: 0 0 5px #c70505, 0 0 15px #ff006a;
+}
+
+.snake2 {
+  position: absolute;
+  display: flex;
+  height: 43%;
+  width: 0;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 1537px;
+  right: 409px;
+  transform: rotateZ(53deg);
+}
+
+.snake3 {
+  position: absolute;
+  display: flex;
+  height: 0;
+  width: 39%;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 1754px;
+  left: 305px;
+}
+
+.snake4 {
+  position: absolute;
+  display: flex;
+  height: 34%;
+  width: 0%;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 1758px;
+  left: 305px;
+}
+
+.snake-in2 {
+  position: absolute;
+  height: 0px;
+  width: 0;
+  border: 10px solid #0066ff;
+  box-shadow: 0 0 5px #00aeff, 0 0 15px #5900ff;
+  border-radius: 50%;
+  right: -10px;
+  top: 65px;
+  z-index: 100;
+}
+
+.snake-in2 > a {
+  position: absolute;
+  font-size: 65px;
+  top: -30px;
+  left: 5px;
+  color: #0066ff;
+  text-shadow: 0 0 5px #00aeff, 0 0 15px #5900ff;
+}
+
+.snake5 {
+  position: absolute;
+  display: flex;
+  height: 50%;
+  width: 0;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 1909px;
+  left: 434px;
+  transform: rotateZ(-53deg);
+}
+
+.snake6 {
+  position: absolute;
+  display: flex;
+  height: 0;
+  width: 35%;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 2162px;
+  right: 315px;
+}
+.snake7 {
+  position: absolute;
+  display: flex;
+  height: 33%;
+  width: 0%;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 2165px;
+  right: 315px;
+}
+
+.snake-in3 {
+  position: absolute;
+  height: 0px;
+  width: 0;
+  border: 10px solid #f06fbe;
+  box-shadow: 0 0 5px #c70505, 0 0 15px #ff006a;
+  border-radius: 50%;
+  right: -10px;
+  top: 60px;
+  z-index: 100;
+}
+
+.snake-in3 > a {
+  position: absolute;
+  font-size: 65px;
+  top: -33px;
+  right: 5px;
+  color: hsl(327, 88%, 73%);
+  text-shadow: 0 0 5px #c70505, 0 0 15px #ff006a;
+}
+
+.snake8 {
+  position: absolute;
+  display: flex;
+  height: 47%;
+  width: 0;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 2312px;
+  right: 434px;
+  transform: rotateZ(53deg);
+}
+
+.snake9 {
+  position: absolute;
+  display: flex;
+  height: 0;
+  width: 55%;
+  border: 5px solid rgb(172, 12, 12);
+  box-shadow: 0 0 5px #c70505, 0 0 15px #db0202;
+  border-radius: 50px;
+  top: 2550px;
+  left: 4%;
+}
+
+.border1 {
+  position: absolute;
+  height: 200vh;
+  width: 5%;
+  background: linear-gradient(rgb(172, 12, 12), rgb(216, 5, 5));
+}
+.border2 {
+  position: absolute;
+  height: 200vh;
+  width: 5%;
+  right: 0;
+  background-color: rgb(172, 12, 12);
+}
+
+.img-gun {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  background: url('photos/chaos-weapon-cyberpunk-2077-wiki-guide.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 1410px;
+  right: -80px;
+  transform: rotateZ(55deg);
+}
+
+.img-gun2 {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  background: url('photos/Katana_Default.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 1810px;
+  left: -80px;
+  transform: rotateZ(-55deg);
+}
+.img-gun3 {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  background: url('photos/cherry-blossom-with-watercolor-blooming-sakura-flower-japanese-cherry-blossom-realistic-watercolor-cherry-blossom-sakura-branch-with-watercolor-flower-watercolor-cherry-flower-free-png.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 2110px;
+  left: -80px;
+  transform: rotateZ(-55deg);
+}
+.img-gun4 {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  background: url('photos/Katana_Saburo.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 1780px;
+  right: -40px;
+  transform: rotateZ(105deg);
+}
+
+.img-gun5 {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  background: url('photos/cherry-blossom-with-watercolor-blooming-sakura-flower-japanese-cherry-blossom-realistic-watercolor-cherry-blossom-sakura-branch-with-watercolor-flower-watercolor-cherry-flower-free-png.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 1398px;
+  left: -40px;
+  transform: rotateZ(-105deg);
+}
+
+.main2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: rgb(24, 22, 22);
+}
+
+.main-border1 {
+  position: absolute;
+  width: 10%;
+  left: 0;
+  height: 111vh;
+  background: linear-gradient(rgb(216, 5, 5), rgb(160, 0, 0));
+  clip-path: polygon(0 0, 50% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+}
+.main-border2 {
+  position: absolute;
+  width: 10%;
+  right: 0;
+  height: 111vh;
+  background-color: rgb(172, 12, 12);
+  clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+}
+
+.video {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.main3 {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+
+.main3-border1 {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(rgb(160, 0, 0), rgb(255, 0, 0));
+  clip-path: polygon(0 0, 10% 0, 100% 44%, 100% 100%, 0 100%, 0 100%);
+  top: 3333px;
+}
+.main3-border2 {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  clip-path: polygon(90% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 100%);
+  background-color: rgb(172, 12, 12);
+  top: 3333px;
+  z-index: 200;
+}
+
+.photo {
+  top: 3350px;
+  height: 550px;
+  width: 70%;
+  position: absolute;
+  background: url('photos/3865ab6c8d.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+  left: 100px;
+}
+
+.animated-text {
+  margin: 400px 0px 0 500px;
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+  color: #f8f8f8;
+  font-family: 'MuseoModerno', cursive;
+  transform: rotateZ(-25deg);
+  z-index: 1000;
+  position: absolute;
+}
+
+.animated-text > span {
+  position: relative;
+}
+
+.animated-text > span::before {
+  content: 'HTML';
+  color: #f8f8f8;
+  text-shadow: 0 0 5px #0066ff, 0 0 10px #00c8ff;
+  animation: words 20s infinite;
+}
+.animated-text > span::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: rgb(172, 12, 12);
+  border-left: 2px solid #0066ff;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: 'CSS';
+  }
+  21%,
+  40% {
+    content: 'Figma';
+  }
+  41%,
+  60% {
+    content: 'CMD';
+  }
+  61%,
+  80% {
+    content: 'Codder';
+  }
+  81%,
+  100% {
+    content: 'Designer';
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+.main3 > h1 {
+  font-size: 55px;
+  font-family: 'MuseoModerno', cursive;
+  color: #fff;
+  margin: 100px 0 0 600px;
+  text-shadow: 0 0 5px #0066ff, 0 0 15px #00c8ff;
+}
+
+.animated-text2 {
+  margin: 260px 0px 0 800px;
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+  color: #f8f8f8;
+  font-family: 'MuseoModerno', cursive;
+  transform: rotateZ(-25deg);
+  z-index: 1000;
+  position: absolute;
+}
+
+.animated-text2 > span {
+  position: relative;
+}
+
+.animated-text2 > span::before {
+  content: 'HTML';
+  color: #f8f8f8;
+  text-shadow: 0 0 5px #0066ff, 0 0 10px #00c8ff;
+  animation: words2 20s infinite;
+}
+.animated-text2 > span::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: rgb(172, 12, 12);
+  border-left: 2px solid #0066ff;
+  right: -8px;
+  animation: cursor2 0.8s infinite, typing2 20s steps(14) infinite;
+}
+
+@keyframes cursor2 {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words2 {
+  0%,
+  20% {
+    content: 'PHP';
+  }
+  21%,
+  40% {
+    content: 'Java Script';
+  }
+  41%,
+  60% {
+    content: 'JAVA';
+  }
+  61%,
+  80% {
+    content: 'C++';
+  }
+  81%,
+  100% {
+    content: 'MY SQL';
+  }
+}
+
+@keyframes typing2 {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+.animated-text3 {
+  margin: 400px 0px 0 680px;
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+  color: #f8f8f8;
+  font-family: 'MuseoModerno', cursive;
+  transform: rotateZ(-25deg);
+  z-index: 1000;
+  position: absolute;
+}
+
+.animated-text3 > span {
+  position: relative;
+}
+
+.animated-text3 > span::before {
+  content: 'HTML';
+  color: #f8f8f8;
+  text-shadow: 0 0 5px #0066ff, 0 0 10px #00c8ff;
+  animation: words3 20s infinite;
+}
+.animated-text3 > span::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: rgb(172, 12, 12);
+  border-left: 2px solid #0066ff;
+  right: -8px;
+  animation: cursor3 0.8s infinite, typing3 20s steps(14) infinite;
+}
+
+@keyframes cursor3 {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words3 {
+  0%,
+  20% {
+    content: 'TEAMWORK';
+  }
+  21%,
+  40% {
+    content: 'SINGLEWORK';
+  }
+  41%,
+  60% {
+    content: 'TEAMWORK';
+  }
+  61%,
+  80% {
+    content: 'SINGLEWORK';
+  }
+  81%,
+  100% {
+    content: 'TEAMWORK';
+  }
+}
+
+@keyframes typing3 {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+
+.bck-city-img1 {
+  position: absolute;
+  width: 100%;
+  top: 3300px;
+  left: -400px;
+  height: 619px;
+  background: url('photos/cybercity.jpg');
+  background-position: calc(80px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 99;
+  clip-path: polygon(0 0, 100% 49%, 100% 100%, 75% 100%, 0 100%, 0% 50%);
+}
+.bck-city-img2 {
+  position: absolute;
+  width: 100%;
+  top: 3420px;
+  right: -200px;
+  height: 500px;
+  z-index: 1000;
+  background: url('photos/cyberpunk-2077-4k-wallpaper-1920x1074.jpg');
+  background-position: calc(80px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(25% 100%, 100% 0, 100% 100%, 75% 100%, 30% 100%, 37% 100%);
+}
+
+.bck-city-img3 {
+  position: absolute;
+  top: 3300px;
+  right: -210px;
+  height: 700px;
+  width: 100%;
+  z-index: 1000;
+}
+
+footer {
+  display: flex;
+  margin-top: -5px;
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(110, 83, 83);
+  background: url(photos/v\ cvadro.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+}
+
+.footer-top {
+  position: absolute;
+  height: 270px;
+  top: 3918px;
+  width: 100%;
+  right: 0%;
+  background-color: rgb(172, 12, 12);
+  z-index: 1000;
+}
+
+.footer-png{
+  position: absolute;
+  top: 3910px;
+  height: 90vh;
+  width: 100%;
+  background: url(photos/v\ cvadro.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+}
+
+.my{
+  display: flex;
+  z-index: 1000;
+  margin: 40px 0px 0 560px;
+  font-size: 45px;
+  color: #f8f8f8;
+  font-family: 'MuseoModerno', cursive;
+  text-shadow: 0 0 5px #0066ff, 0 0 10px #00c8ff;
+}
+
+.footer-info{
+  position: absolute;
+  display: flex;
+  z-index: 1000;
+  height: 50px;
+  width: 100%;
+}
+
+.footer-info ul{
+  display: flex;
+  margin: 90px 0 0px 130px;
+}
+.footer-info ul li{
+  list-style: none;
+  font-size: 25px;
+  color: #ffffff;
+  margin-inline: 90px;
+  font-family: 'MuseoModerno', cursive;
+}
+.footer-info li a{
+  font-size: 25px;
+  font-family: 'MuseoModerno', cursive;
+   margin-left: 10px;
+   color: #f8f8f8;
+   z-index: 1000;
+}
+
+.footer-info li a:hover{
+  color: #5900ff;
+  text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+  header {
+    position: fixed;
+    bottom: 0;
+   
+  }
+  img {
+    display: none;
+  }
+  .img > .h1 {
+    display: none;
+  }
+  ul {
+    display: flex;
+    margin: 0px 0% 0px 20px;
+  }
+
+  ul > li:last-child {
+    position: absolute;
+    bottom: 5px;
+    left: 120px;
+  }
+  .icons {
+    display: flex;
+    margin: -70px 60% 0 100px;
+  }
+}
+
+/*
+@media (min-aspect-ratio: 16/9) {
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  video {
+    width: auto;
+    height: 100%;
+  }
+}
+*/
+
+/*@media (max-width: 760px) {
+    header {
+        position: fixed;
+        bottom: 0;
+    }
+    img {
+        display: none;
+    }
+    .img > .h1 {
+        display: none;
+    }
+    ul {
+        display: flex;
+        margin: 0px 0 0px 20%;
+    }
+    .icons {
+        display: flex;
+        margin: -70px 40% 0 40%;
+    }
+}*/
